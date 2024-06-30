@@ -16,7 +16,7 @@ const Card = ({ data }) => {
     employmentType,
     description
   } = data;
-  const apiUrl = process.env.REACT_APP_API_URL
+  const apiUrl = 'https://jamjob.onrender.com'
 
   // Assuming your server base URL is "http://localhost:2000/"
   const imageUrl = `${apiUrl}/get-logo${companyLogoUrl}`;
