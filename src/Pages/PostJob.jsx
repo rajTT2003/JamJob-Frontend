@@ -14,7 +14,7 @@ export const PostJob = () => {
     const [needsPayment, setNeedsPayment] = useState(false);
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
     const navigate = useNavigate(); // Use useNavigate hook
-    const apiUrl = process.env.REACT_APP_API_URL
+    const apiUrl = 'https://jamjob.onrender.com'
 
     useEffect(() => {
         const auth = getAuth(firebaseApp);

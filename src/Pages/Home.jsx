@@ -10,7 +10,7 @@ const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 6;
-  const apiUrl = process.env.REACT_APP_API_URL
+  const apiUrl = 'https://jamjob.onrender.com'
   useEffect(() =>{
     setIsLoading(true);
     fetch(`${apiUrl}/all-jobs`).then(res => res.json()).then(data => {

@@ -16,7 +16,7 @@ const SignUp = () => {
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
     const navigate = useNavigate();
-    const apiUrl = process.env.REACT_APP_API_URL
+    const apiUrl = 'https://jamjob.onrender.com'
 
     const handleSignup = () => {
         if (password !== confirmPassword) {

@@ -13,7 +13,7 @@ const MyJobs = () => {
 
   const auth = getAuth(firebaseApp);
   const location = useLocation(); // Use useLocation hook
-  const apiUrl = process.env.REACT_APP_API_URL
+  const apiUrl = 'https://jamjob.onrender.com'
 
   // Fetch user email
   useEffect(() => {

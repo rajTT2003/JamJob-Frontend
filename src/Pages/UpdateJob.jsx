@@ -20,7 +20,7 @@ const UpdateJob = () => {
     const [email, setEmail] = useState("");
     const [currentDate, setCurrentDate] = useState("");
 
-    const apiUrl = process.env.REACT_APP_API_URL
+    const apiUrl = 'https://jamjob.onrender.com'
 
     
     const onSubmit = async (data) => {

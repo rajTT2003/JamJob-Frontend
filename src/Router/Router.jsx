@@ -11,8 +11,7 @@ import SalaryEstimate from "../Pages/SalaryEstimate";
 import UpdateJob from "../Pages/UpdateJob";
 import Login from "../component/Login";
 import SignUp from "../Pages/SignUp";
-const apiUrl = process.env.REACT_APP_API_URL
-
+const apiUrl ='https://jamjob.onrender.com'
 const router = createBrowserRouter([
     {
       path: "/",
